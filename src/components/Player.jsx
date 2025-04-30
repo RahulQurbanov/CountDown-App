@@ -15,7 +15,7 @@ export default function Player() {
       <h2>Welcome: {playerName?playerName:"unknown entity"}</h2>
       <p>
         <input ref={player} type="text"/>
-        <button onClick={showName}>Set-Name</button>
+        <button onClick={showName}>Set-Name:</button>
       </p>
     </section>
   );
